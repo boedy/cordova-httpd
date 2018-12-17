@@ -88,8 +88,6 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 <source-file src="src/ios/CocoaHttpd/Categories/DDNumber.m" />
 <header-file src="src/ios/CocoaHttpd/Categories/DDRange.h" />
 <source-file src="src/ios/CocoaHttpd/Categories/DDRange.m" />
-<header-file src="src/ios/CocoaHttpd/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h" />
-<source-file src="src/ios/CocoaHttpd/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m" />
 
 <framework src="CFNetwork.framework" />
 <framework src="Foundation.framework" />
@@ -142,12 +140,11 @@ xmlns:android="http://schemas.android.com/apk/res/android">
         <source-file src="src/ios/CocoaHttpd/Categories/DDNumber.m" />
         <header-file src="src/ios/CocoaHttpd/Categories/DDRange.h" />
         <source-file src="src/ios/CocoaHttpd/Categories/DDRange.m" />
-        <header-file src="src/ios/CocoaHttpd/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h" />
-        <source-file src="src/ios/CocoaHttpd/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m" />
 
         <framework src="CFNetwork.framework" />
         <framework src="Foundation.framework" />
         <framework src="Security.framework" />
         <framework src="CocoaLumberjack" type="podspec" spec="~> 3.4.2" />
+        <framework src="CocoaAsyncSocket" type="podspec" spec="~> 7.6.3" />
     </platform>
 </plugin>
